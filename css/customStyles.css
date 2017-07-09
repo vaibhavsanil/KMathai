@@ -1,0 +1,67 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.bg {
+    height: 50%;
+    background: url("../img/5464247971_8292d74295_b.jpg") no-repeat center;
+    background-size: cover;
+
+    -webkit-filter: blur(2px);
+    -moz-filter: blur(2px);
+    -o-filter: blur(2px);
+    -ms-filter: blur(2px);
+    filter: blur(2px)
+}
+
+.affix {
+    top: 0;
+    width: 100%;
+}
+
+.affix + .container-fluid {
+    padding-top: 70px;
+}
+
+div.transbox {
+    /*opacity: 0.8;*/
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+div.transbox p {
+    font-family: Brush Script Std, Brush Script MT, cursive;
+    font-size: 500%;
+    font-weight: bold;
+    color: #ffffff;
+    position: absolute;
+    top: 10%;
+    right: 19%;
+}
+
+div.e p {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 200%;
+    font-weight: bold;
+    color: #ffffff;
+    position: absolute;
+    top: 20%;
+    right: 12%
+}
+
+video {
+    max-width: 100%;
+    height: auto;
+}
+
+iframe,
+embed,
+object {
+    max-width: 100%;
+}
+
+.vendor {
+    padding: 2%;
+    background: #d1eed1;
+    margin-bottom: 2em;
+}
